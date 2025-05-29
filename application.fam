@@ -1,0 +1,26 @@
+App(
+    appid="showdown",
+    name="Showdown",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="showdown_main",  # Change this if your C entry point is different (showdown, etc.)
+    stack_size=2 * 1024,
+    fap_private_libs=[
+        Lib(
+            name="flipper_gblink",
+            fap_include_paths=["gblink/include", "./"],
+            sources=["gblink/*.c"],
+        ),
+    ],
+    fap_category="Games",
+    fap_icon="pokemon_10px.png",
+    fap_icon_assets="assets",
+    fap_file_assets="files",
+    fap_icon_assets_symbol="pokemon",
+    fap_author="HermeticCode, EstebanFuentealba & kbembedded, Kris Bahnsen, ProteanReverie, Darryn Cull, R4g3D",  # Added you!
+    fap_weburl="https://github.com/EstebanFuentealba/Flipper-Zero-Game-Boy-Pokemon-Trading",
+    fap_version=(3, 0),
+    fap_description="Pokemon Showdown-style battle app for Flipper Zero using sprites and mechanics from the Pokemon Trading Tool. Based on work by EstebanFuentealba, kbembedded, and contributors.",
+    #  [Extended Functionality #17 (By R4g3D)](https://github.com/EstebanFuentealba/Flipper-Zero-Game-Boy-Pokemon-Trading/pull/17)
+    #  [Refactor, UI update, Feature add #14 (By kbembedded)](https://github.com/EstebanFuentealba/Flipper-Zero-Game-Boy-Pokemon-Trading/pull/14)
+    #  [(Victory) Road to 2.0 #24 (By kbembedded)](https://github.com/EstebanFuentealba/Flipper-Zero-Game-Boy-Pokemon-Trading/pull/24)
+)
