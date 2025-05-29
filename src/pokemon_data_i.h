@@ -3,7 +3,7 @@
 
 #include <src/include/pokemon_data.h>
 
-//#include <src/pokemon_app.h>
+//#include <src/showdown_app.h>
 //#include <src/include/pokemon_char_encode.h>
 
 static void pokemon_stat_ev_calc(PokemonData* pdata, EvIv val);

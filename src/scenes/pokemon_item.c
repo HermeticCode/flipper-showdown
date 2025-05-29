@@ -4,7 +4,7 @@
 
 #include <src/include/named_list.h>
 
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 #include <src/include/pokemon_data.h>
 
 #include <src/scenes/include/pokemon_scene.h>

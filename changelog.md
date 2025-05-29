@@ -5,12 +5,12 @@
 
 ## [2024-05-29]
 ### Added
-- Created `deprecated/` folder and moved legacy or unused assets/code there for safe keeping.
+- Created `deprecated/` folder and moved legacy or unused assets/code there for safe keeping, possible reintroduction.
 - Initial commit: ported core structure from `pkmn_trader` and set up repo.
 
 ### Changed
 - Updated application metadata and author list in `application.fam`.
-- Renamed and clarified `TODO.md` to `TODO_deprecated.md` to reflect project evolution.
+
 
 ### Removed
 - [Pending] Review and move unused trading mechanisms and ESP32 Marauder files to `deprecated/`.

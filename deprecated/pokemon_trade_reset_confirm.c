@@ -1,7 +1,7 @@
 #include <gui/modules/dialog_ex.h>
 
 #include <pokemon_icons.h>
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 #include <src/include/pokemon_data.h>
 
 #include <src/scenes/include/pokemon_scene.h>

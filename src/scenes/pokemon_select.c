@@ -1,4 +1,4 @@
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 
 #include <src/scenes/include/pokemon_scene.h>
 

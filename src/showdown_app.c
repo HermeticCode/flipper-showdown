@@ -1,7 +1,7 @@
 #include <furi_hal_light.h>
 #include <pokemon_icons.h>
 
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 #include <src/include/pokemon_data.h>
 #include <src/views/trade.h>
 #include <src/include/pokemon_char_encode.h>
@@ -107,7 +107,7 @@ void free_app(PokemonFap* pokemon_fap) {
     pokemon_fap = NULL;
 }
 
-int32_t pokemon_app(void* p) {
+int32_t showdown_app(void* p) {
     UNUSED(p);
     PokemonFap* pokemon_fap = pokemon_alloc();
 

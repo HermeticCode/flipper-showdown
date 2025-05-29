@@ -1,7 +1,7 @@
 #include <gui/modules/variable_item_list.h>
 #include <furi.h>
 
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 
 #include <src/scenes/include/pokemon_scene.h>
 #include <src/include/pokemon_attribute.h>

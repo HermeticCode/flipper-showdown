@@ -4,7 +4,7 @@
 #include <gui/view_dispatcher.h>
 #include <stdlib.h>
 
-#include <src/include/pokemon_app.h>
+#include <src/include/showdown_app.h>
 #include <src/include/pokemon_data.h>
 #include <src/include/pokemon_char_encode.h>
 #include <src/include/pokemon_attribute.h>
