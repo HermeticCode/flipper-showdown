@@ -74,6 +74,7 @@ cd flipper-showdown
 ## Roadmap
 - Vet files to find what works and what doesnt
     -Very possible I have to just abandon and start fresh
+          ^ Turns out that yes I had to abandon and start fresh but if you read this far thank you i guess. I am continuing to update and will hopefully have a beta test soon.
     -In that event I will update and inform
 
 - Finish full Pokémon selection/menu flow for first 251 Sprites
